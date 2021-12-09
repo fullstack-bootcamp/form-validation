@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Project</title>
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-500 flex items-center  h-screen" >
+
+    <div id="main" class="bg-white mx-auto rounded ">
+       <div class="py-4 flex items-center justify-around">
+            <div class="bg-gray-500 w-1/4 h-0.5 "></div>
+           <h1 class="text-center text-4xl text-gray-600 ">Register</h1>
+           <div class="bg-gray-500 w-1/4 h-0.5 "></div>
+       </div>
+       <p class="px-4 text-gray-600 text-center ">Create your acoount. it's free and only takes a minute.</p>
+
+       <form class="px-4 mb-4">
+            <div class="form-control relative py-1">                
+                <input id="name" class="ring-1 ring-gray-300  w-full  px-2  mt-4 rounded" type="text" placeholder="Enter Your Full Name">
+                <!-- <span class="">&check;</span> -->
+                <span class="hidden">&times;</span>
+                <span class="hidden">&check;</span>
+                <span class="hidden">enter value</span>
+            </div>
+            <div class="form-control relative py-1">
+                <input id="email" class="ring-1 ring-gray-300 w-full  px-2  mt-4 rounded" type="text" placeholder="Email">
+                <span class="hidden">&times;</span>
+                <span class="hidden">&check;</span>
+                <span class="hidden">enter value</span>
+            </div>
+
+            <div class="form-control relative py-1">
+                <input id="password" class="ring-1 ring-gray-300 w-full  px-2  mt-4 rounded" type="text" placeholder="Password">
+                <span class="hidden">&times;</span>
+                <span class="hidden">&check;</span>
+                <span class="hidden">enter value</span>
+            </div>
+            <div class="form-control relative py-1">
+                <input id="confirm-password" class="ring-1 ring-gray-300 w-full  px-2  mt-4 rounded" type="text" placeholder="Confirm Password">
+                <span class="hidden">&times;</span>
+                <span class="hidden">&check;</span>
+                <span class="hidden">enter value</span>
+            </div>
+           <button type="submit" class="px-2 py-1 bg-green-700 rounded text-gray-200 w-full mt-4">Register Now</button>
+
+       </form>
+    </div>
+   
+
+
+    <script src="main.js"></script>
+
+    
+</body>
+</html>
